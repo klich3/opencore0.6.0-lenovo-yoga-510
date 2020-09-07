@@ -19,8 +19,18 @@ Integrated Graphics: Intel HD 520
 ## What works
 
 - Keyboard & Trackpad
-- Testing
+- Realtek 8111 LAN
+- USB 
+- Hibernation
+- Battery
+- WiFi
+- Bluetooth
+- HDMI 2.0
+- HDMI Audio
+- Acceleration GPU
+- TurboBoost
+- Audio
 
-## What doesn't work
+## What don't test
 
-- Testing
+- SD Reader

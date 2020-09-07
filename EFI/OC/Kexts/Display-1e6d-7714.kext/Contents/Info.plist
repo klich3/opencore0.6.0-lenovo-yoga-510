@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Copyright (C) 2013 AnV Software</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AnV.Software.driver.AppleMonitor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Display Injector</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>9.9.9</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Monitor Apple ID Injection</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>DisplayProductID</key>
+			<integer>30484</integer>
+			<key>DisplayVendorID</key>
+			<integer>7789</integer>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleBacklightDisplay</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>DisplayProductName</key>
+				<string>LG HDR WFHD</string>
+				<key>IODisplayEDID</key>
+				<data>
+				AP///////wAebXyc/asFAAUeAQOAUCJg6m+xp1VMniUM
+				UFQla4BxQIGAgcCpwLMA0cCBANHPzUYAoKA4H0AwIDoA
+				Hk4xAAAaAjqAGHE4LUBYLEUAHk4xAAAeAAAA/QAoS1pa
+				GQAKICAgICAgAAAA/ABMRyBIRFIgV0ZIRAogAQYCA0Dx
+				IwkHB0wQBAMBHxNZ2hJdXl+DAQAAbQMMABAAuDwgAGAB
+				AgNn2F3EATyAAGgaAAABAShLAOMFwADjBgUBKVkAoKA4
+				J0AwIDoAHk4xAAAaVl4AoKCgKVAwIDUAHk4xAAAaAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAew==
+				</data>
+			</dict>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
