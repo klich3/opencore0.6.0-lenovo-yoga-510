@@ -1944,12 +1944,11 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>c1231</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
 			<data>
-			HDlH1mDn
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1958,9 +1957,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,2</string>
 			<key>SystemSerialNumber</key>
-			<string>c1231</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>000</string>
+			<string></string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
